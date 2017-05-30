@@ -83,7 +83,7 @@ function insertresult(result){
             break;
         }
         case "skills": {
-            var insertdata = "<p id = 'main'> Skills </p> <br><br> <p id  = skills> <li>Thinking through first principles<div id = 'one' align = 'left|justify'></div></li><li> MicroManaging <div id = 'two' align = 'left|justify'></div></li><li> Goal Oriented <div id = 'three' align = 'left|justify'> </div></li><li> Future Focused <div id = 'four'> </div></li><li> Critical Thinking <div id = 'five'> </div></li><li>Resiliency<div id = 'six'> </div></li><li>Verbal and Written Communication <div id = 'seven'> </div></li><li>Leadership<div id = 'eight'> </div></li><li>Creativity<div id = 'nine' > </div></li><li>Time Management<div id = 'ten'> </div></li></p><br><br>"; 
+            var insertdata = "<p id = 'main'> Skills </p> <br><br> <p id  = 'skills'> <li>Thinking through first principles <p id = 'mark'>[10/10]</p> </li><li> MicroManaging  <p id = 'mark'>[9/10]</p> </li><li> Goal Oriented <p id = 'mark'>[10/10]</p> </li><li> Future Focused  <p id = 'mark'>[10/10]</p> </li><li> Critical Thinking  <p id = 'mark'>[8/10]</p> </li><li>Resiliency  <p id = 'mark'>[10/10]</p> </li><li>Verbal and Written Communication <p id = 'mark'>[8/10]</p> </li><li>Leadership  <p id = 'mark'>[10/10]</p> </li><li>Creativity <p id = 'mark'>[9/10]</p> </li><li>Time Management <p id = 'mark'>[10/10]</p></li></p><br><br>"; 
             var topdata = document.getElementById("start").innerHTML;
             document.getElementById("start").innerHTML = topdata+insertdata;    
             break;

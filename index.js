@@ -51,23 +51,20 @@ function insertresult(result){
         }
         case "about": {
             var insertdata = "<p id = 'main'> About </p> <br> Hi, I am <p id = 'name'>Nishank</p><br>";
-            insertdata = insertdata+"I am an entrepreneur and a computer programmer<br>";
-            insertdata = insertdata+"Some of my qualities includes : <br><ul><li> Energetic </li><li> Dynamic </li><li> Excellent Presentation skills </li><li> Future Focused </li><li> Excellent Executor and leadership qualities </li><li> Goal Oriented </li><li> Excellent Communication Skills </li><li> Excellent Technical Skills</li><li> Efficient Programming Skill and experience </li><li> Excellent Time Management</li></ul>";
+            insertdata = insertdata+"I am a computer programmer and is currently pursuing B.Tech from NSIT<br>";
+            /*insertdata = insertdata+"Some of my qualities includes : <br><ul><li> Energetic </li><li> Dynamic </li><li> Excellent Presentation skills </li><li> Future Focused </li><li> Excellent Executor and leadership qualities </li><li> Goal Oriented </li><li> Excellent Communication Skills </li><li> Excellent Technical Skills</li><li> Efficient Programming Skill and experience </li><li> Excellent Time Management</li></ul>";
             insertdata = insertdata+"<p class='importantdata' align = 'justify'> Motive <br><br> <li>Aiming to reduce global warming through sustainable energy production and consumption and reducing the risk of human extinction by making the life multiplanetary</li><br>";
             insertdata = insertdata+"<p class='idata' align = 'left' ><li>Aiming to innovate the education sector so that every student can get equal opportunities...</li></p><br>";
-            insertdata = insertdata+"<p class='idata' align = 'left' ><li>Aiming to innovate the e-commerce sector so as to make shoppign experince of the users like never before and that to sitting at their homes, and delivery of their products within least time possible thus making use of drones an dither technologies to deliver the products to the users and hence saving their time!!!</li><br></p><br>"
+            insertdata = insertdata+"<p class='idata' align = 'left' ><li>Aiming to innovate the e-commerce sector so as to make shoppign experince of the users like never before and that to sitting at their homes, and delivery of their products within least time possible thus making use of drones an dither technologies to deliver the products to the users and hence saving their time!!!</li><br></p><br>"*/
 
             var topdata = document.getElementById("start").innerHTML;
             document.getElementById("start").innerHTML = topdata+insertdata;
             break;
         }
         case "experience": {
-            var insertdata = "<p id = 'main'> Experience </p> <br><br> <p id = 'exp'>Founder</p><br><p id = 'org'> Neighbor(2017 - present) </p><br><p id = 'achieve'> Accomplishments <br><p id = 'achabout'>Creating a web application on which a user can post anything being anonymous based on user location.</p> </p><br><br>";
-            insertdata = insertdata+"<p id = 'exp'>Business Developmant Analyst(Intern)(May 2016-August 2016)</p><br><p id = 'org'> Zorent(Parent company : @Reach acquired by ixigo.com) </p><br><p id = 'achieve'> Accomplishments <br> <p id = 'achabout'>Worked along with founders and increased the userbase of application from 200 users to 13,000 users during three months of my internship.</p></p><br><br>";
-            insertdata = insertdata+"<p id = 'exp'>CTO &amp; CFO(2015 - 2016)</p><br><p id = 'org'> Lumen City </p><br><p id = 'achieve'> Accomplishments <br><p id = 'achabout'>Played a key role in getting project from UttarPradesh government for installing solar panels of 5MW power so as to reduce the global warming by making use of sustainable energy resources.</p></p><br><br>";
-            insertdata = insertdata+"<p id = 'exp'> Business Development Analyst(Intern)</p><br><p id = 'org'> Adscash(November 2016 - January 2017) </p><br><p id = 'achieve'> Accomplishments <br><p id = 'achabout'> Worked along with founders and played a key role in increasing user base from 1000 users to 60,000 users during 3 months of my internship.</p></p><br><br>";
-            insertdata = insertdata+"<p id = 'exp'> Business Development Analyst(Intern)</p><br><p id = 'org'> Jivo Canola Oil(November 2015 - January 2016) </p><br><p id = 'achieve'> Accomplishments <br><p id = 'achabout'> Worked along with founders to increase the user base at an exponential rate.</p></p><br><br>";
-            insertdata = insertdata+"<p id = 'exp'> Teaching Assistant(Intern)</p><br><p id = 'org'> Coding Ninjas(February 2017 - May 2017) </p><br><p id = 'achieve'> Accomplishments <br><p id = 'achabout'> Helped students to clear their doubts and implemented innovative ways so that students are able to enjoy the courses.</p></p><br><br>";
+            var insertdata = "<p id = 'main'> Experience </p> <br><br> <p id = 'exp'>Founding Member</p><br><p id = 'org'> Coincase </p><br><p id = 'achieve'> Accomplishments <br><p id = 'achabout'>Conceptualised as well as developed the first and the most secure multi-cryptocurrency wallet in the world in the team of two. Currently the wallet accepts bitcoins, litecoins, ripple, ethereum , bitcoin cash, bitcoin gold and dogecoins for transactions. Appreciated by Hindustan times campus journalist.</p> </p><br><br>";
+            insertdata = insertdata+"<p id = 'exp'>Founding Member</p><br><p id = 'org'> Neighbor </p><br><p id = 'achieve'> Accomplishments <br> <p id = 'achabout'>Created a social networking site based on location which provides freedom to the users to express their views by going anonymous. Developed and provided the initial concept and financial support.</p></p><br><br>";
+            insertdata = insertdata+"<p id = 'exp'>Teaching Assistant</p><br><p id = 'org'> Coding Ninjas </p><br><p id = 'achieve'> Accomplishments <br><p id = 'achabout'>Helped students to clear their doubts so that they are able to build projects that they wanted and enjoy the courses by giving them various insights about how different markets works.</p></p><br><br>";
             var topdata = document.getElementById("start").innerHTML;
             document.getElementById("start").innerHTML = topdata+insertdata;
             break;
@@ -83,13 +80,13 @@ function insertresult(result){
             break;
         }
         case "skills": {
-            var insertdata = "<p id = 'main'> Skills </p> <br><br> <p id  = 'skills'> <li>Thinking through first principles <p id = 'mark'>[10/10]</p> </li><li> MicroManaging  <p id = 'mark'>[9/10]</p> </li><li> Goal Oriented <p id = 'mark'>[10/10]</p> </li><li> Future Focused  <p id = 'mark'>[10/10]</p> </li><li> Critical Thinking  <p id = 'mark'>[8/10]</p> </li><li>Resiliency  <p id = 'mark'>[10/10]</p> </li><li>Verbal and Written Communication <p id = 'mark'>[8/10]</p> </li><li>Leadership  <p id = 'mark'>[10/10]</p> </li><li>Creativity <p id = 'mark'>[9/10]</p> </li><li>Time Management <p id = 'mark'>[10/10]</p></li></p><br><br>"; 
+            var insertdata = "<p id = 'main'> Skills </p> <br><br> <p id  = 'skills'> <li> Good Knowledge of Data Structures and Algorithms </li><li> <b> Languages Known : </b><p> C++, Ruby, Javascript, Python </p></li><li> <b> Frameworks : </b> <p> Ruby on Rails, Android, express, Sinatra </p></li><li> Future Focused  <p id = 'mark'>[10/10]</p> </li><li> Critical Thinking  <p id = 'mark'>[8/10]</p> </li><li>Resiliency  <p id = 'mark'>[10/10]</p> </li><li>Verbal and Written Communication <p id = 'mark'>[8/10]</p> </li><li>Leadership  <p id = 'mark'>[10/10]</p> </li><li>Creativity <p id = 'mark'>[9/10]</p> </li><li>Time Management <p id = 'mark'>[10/10]</p></li></p><br><br>"; 
             var topdata = document.getElementById("start").innerHTML;
             document.getElementById("start").innerHTML = topdata+insertdata;    
             break;
         }
         case "achievements": {
-            var insertdata = "<p id = 'main'> Achievements </p> <br><br> <p id  = achievements> <li>10th(2013) :  9.8 cgpa</li><li> 12th(2015) : 90.4% </li><li>JEE MAINS : AIR(165) second in delhi on the basis of marks</li> <li> JEE ADVANCED : AIR(2293) </li><li> College Aggregate : 72.3% </li><li> Active Member of various societies of college <li> Bullet Hawk Racing</li><li> Entrepreneurship Development cell of NSIT</li><li> Finance and Economic society of NSIT</li><li> Algorithm society of NSIT</li><p>"; 
+            var insertdata = "<p id = 'main'> Achievements </p> <br><br> <p id  = achievements> <li>10th(2013) :  9.8 cgpa</li><li> 12th(2015) : 90.4% </li><li>JEE MAINS : AIR(1121) </li> <li> JEE ADVANCED : AIR(3293) </li><li> College Cgpa : 7.7 cgpa </li><li> Active Member of various societies of college <li> Bullet Hawk Racing</li><li> Entrepreneurship Development cell of NSIT</li><li> Finance and Economic society of NSIT</li><li> Algorithm society of NSIT</li><p>"; 
             var topdata = document.getElementById("start").innerHTML;
             document.getElementById("start").innerHTML = topdata+insertdata;    
             break;
